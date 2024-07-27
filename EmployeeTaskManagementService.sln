@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33603.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeTaskManagementService", "EmployeeTaskManagementService\EmployeeTaskManagementService.csproj", "{D62E431F-7B68-4910-8B23-9EBDC65AFB1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeTaskManagementService.DataAcessLayer", "EmployeeTaskManagementService.Handler\EmployeeTaskManagementService.DataAcessLayer.csproj", "{D21CC453-E5D9-42A9-B6C9-F57BA81D57C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTaskManagementService.test", "EmployeeTaskManagementService.test\EmployeeTaskManagementService.test.csproj", "{3679B76F-93AE-4911-8F68-7E2F239CBAF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D62E431F-7B68-4910-8B23-9EBDC65AFB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D62E431F-7B68-4910-8B23-9EBDC65AFB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D62E431F-7B68-4910-8B23-9EBDC65AFB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D62E431F-7B68-4910-8B23-9EBDC65AFB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21CC453-E5D9-42A9-B6C9-F57BA81D57C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21CC453-E5D9-42A9-B6C9-F57BA81D57C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21CC453-E5D9-42A9-B6C9-F57BA81D57C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21CC453-E5D9-42A9-B6C9-F57BA81D57C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3679B76F-93AE-4911-8F68-7E2F239CBAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3679B76F-93AE-4911-8F68-7E2F239CBAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3679B76F-93AE-4911-8F68-7E2F239CBAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3679B76F-93AE-4911-8F68-7E2F239CBAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B734AFD-FDE5-4F69-838C-B76B9B2AF971}
+	EndGlobalSection
+EndGlobal
